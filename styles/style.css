@@ -1,16 +1,17 @@
  *{
     font-family: 'Roboto Serif', serif;
+    justify-items: center;
  }
  .banner-section{
-    width: 1440px;
+    width: 100%;
     height: 669px;
     background: #f1dede;
     background-image: url(../images/donation1.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-size: cover;
  }
  .banner{
-    position: absolute;
+    position: relative;
     padding-top: 121px;
     padding-left: 156px;
  }
