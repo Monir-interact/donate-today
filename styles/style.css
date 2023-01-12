@@ -2,14 +2,15 @@
     font-family: 'Roboto Serif', serif;
  }
  .banner-section{
-    position: relative;
-    width: 100%;
+    width: 1440px;
     height: 669px;
-    background: #FAFAFA;
+    background: #f1dede;
     background-image: url(../images/donation1.jpg);
     background-repeat: no-repeat;
+    background-position:center;
  }
  .banner{
+    position: absolute;
     padding-top: 121px;
     padding-left: 156px;
  }
@@ -17,11 +18,13 @@
     font-weight: 700;
     font-size: 65px;
     color: #FAFAFA;
+    padding-bottom: 24px;
  }
  .description{
     font-weight: 400;
     font-size: 18px;
     color: white;
+    padding-bottom: 24px;
  }
   .btn-primary{
     height: 64px;
@@ -42,4 +45,5 @@
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
+    margin-left: 16px;
   }
