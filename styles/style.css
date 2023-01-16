@@ -1,31 +1,72 @@
  *{
+   margin: 0;
+   padding: 0;
     font-family: 'Roboto Serif', serif;
-    justify-items: center;
  }
  .banner-section{
+   background-image: url(../images/donation1.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 669px;
+   position: relative;
+   overflow: hidden;
+ }
+ .overlay{
+   position: absolute;
+   width: 100%;
+   height: 669px;
+   background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+   background-blend-mode: screen;
+ }
+ /* .banner-section{
     width: 100%;
     height: 669px;
-    background: #f1dede;
+    background: linear-gradient(black, transparent);
     background-image: url(../images/donation1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
- }
+   mix-blend-mode: multiply;
+   background-size: cover;
+   position: relative;
+   background-repeat: no-repeat;
+   align-items: center;
+   justify-content: center;
+ } */
+ /* .banner-section{
+   background: 
+   repeating-linear-gradient(-45deg,
+         transparent 0,
+         transparent 25%,
+         dodgerblue 0,
+         dodgerblue 50%),
+      repeating-linear-gradient(45deg,
+         transparent 0,
+         transparent 25%,
+         tomato 0,
+         tomato 50%),
+      repeating-linear-gradient(transparent 0,
+         transparent 25%,
+         gold 0,
+         gold 50%),
+      white;
+      background-blend-mode: multiply;
+      background-size: 100px 100px;
+ } */
  .banner{
-    position: relative;
-    padding-top: 121px;
-    padding-left: 156px;
+    text-align: center;
  }
  .banner-title{
+   margin: 0%;
+   text-align: center;
     font-weight: 700;
     font-size: 65px;
     color: #FAFAFA;
-    padding-bottom: 24px;
+    padding-top: 150px;
+    
  }
  .description{
     font-weight: 400;
     font-size: 18px;
     color: white;
-    padding-bottom: 24px;
+    margin-bottom: 32px;
  }
   .btn-primary{
     height: 64px;
